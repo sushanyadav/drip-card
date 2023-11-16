@@ -3,7 +3,7 @@ import { PageHead } from '@/common/components/PageHead';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-[#0D0E13] bg-[url('/bg.svg')] bg-bottom bg-no-repeat xl:bg-cover">
+    <div className="flex min-h-screen items-center justify-center bg-[#0D0E13] bg-[url('/bg.svg')] bg-bottom bg-no-repeat xl:bg-contain">
       <PageHead
         removeTitleAppend
         description="Home page description"

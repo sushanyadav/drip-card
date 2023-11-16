@@ -216,8 +216,8 @@ export const DripCard = ({
 
       {/* white flash effect */}
       <motion.div
-        animate={{ y: -230 }}
-        className="pointer-events-none absolute inset-x-0 top-0 h-[32%] bg-white/80 blur-[20px]"
+        animate={{ y: -230, opacity: 0 }}
+        className="pointer-events-none absolute inset-x-0 top-0 h-[32%] bg-white blur-[20px]"
         transition={{
           duration: 0.3,
           ease: 'easeIn',
